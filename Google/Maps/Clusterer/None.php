@@ -15,7 +15,7 @@
  *
  */
  
-require_once 'Google/Maps/Overload.php';
+require_once __DIR__.'/../Overload.php';
 
 class Google_Maps_Clusterer_None extends Google_Maps_Overload {
     

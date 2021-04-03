@@ -15,7 +15,7 @@
  *
  */
 
-require_once 'Google/Maps.php';
+require_once __DIR__.'../Maps.php';
 
 class Google_Maps_Math {
     

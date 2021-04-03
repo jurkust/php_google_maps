@@ -15,9 +15,9 @@
  *
  */
  
-require_once 'Google/Maps/Overload.php';
-require_once 'Google/Maps/Coordinate.php';
-require_once 'Google/Maps/Point.php';
+require_once __DIR__.'/Overload.php';
+require_once __DIR__.'/Coordinate.php';
+require_once __DIR__.'/Point.php';
 
 class Google_Maps_Bounds extends Google_Maps_Overload {
 

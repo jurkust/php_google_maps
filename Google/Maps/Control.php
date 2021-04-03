@@ -15,11 +15,11 @@
  *
  */
  
-require_once 'Google/Maps/Overload.php';
-require_once 'Google/Maps/Coordinate.php';
-require_once 'Google/Maps/Point.php';
-require_once 'Google/Maps/Marker.php';
-require_once 'Google/Maps/Path.php';
+require_once __DIR__.'/Overload.php';
+require_once __DIR__.'/Coordinate.php';
+require_once __DIR__.'/Point.php';
+require_once __DIR__.'/Marker.php';
+require_once __DIR__.'/Path.php';
 
 class Google_Maps_Control extends Google_Maps_Overload {
         

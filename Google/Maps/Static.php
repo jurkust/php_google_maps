@@ -14,9 +14,9 @@
  * Revision: $Id$
  *
  */
- 
-require_once 'Google/Maps/Overload.php';
-require_once 'Google/Maps/Bounds.php';
+
+require_once __DIR__.'/Overload.php';
+require_once __DIR__.'/Bounds.php';
 
 class Google_Maps_Static extends Google_Maps_Overload {
     

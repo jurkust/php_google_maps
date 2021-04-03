@@ -15,7 +15,7 @@
  *
  */
  
-require_once 'Google/Maps/Coordinate.php';
+require_once __DIR__.'/Coordinate.php';
  
 class Google_Maps_Infowindow extends Google_Maps_Overload {
     
