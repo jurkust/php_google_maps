@@ -1,0 +1,18 @@
+{
+    "name": "tuupola/php_google_maps",
+    "description": "API to help working with Google Static Maps. http://www.appelsiini.net/projects/php_google_maps/controls.html",
+    "authors": [
+        {
+            "name": "Mika Tuupola",
+            "email": "tuupola@appelsiini.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Tuupola\\": "Google/"
+        }
+    },
+    "require": {
+        "tuupola/php_google_maps": "dev-master"
+    }
+}
